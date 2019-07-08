@@ -1,0 +1,59 @@
+.header {
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  background: $primary-color-3;
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // background: #192a56;
+    // background: #192a56;
+    // background: url("../assets/Handshake-Remix-by-Merlin2525.svg");
+    // background: url("../assets/1533518154.svg");
+    //  background: url("../assets/raffaella_biscuso_Stylo.svg");
+    background: url("../assets/1519402404.svg");
+    // background: url("../assets/Chrisdesign_red_glossy_pen.svg"), url("../assets/fountain-pen.svg");
+    // background-position: center;
+    background-position: bottom right;
+    // background: url("../assets/eleve-ordinateur.svg");
+    // background-position: right, left;
+
+    justify-content: center;
+    background-repeat: no-repeat;
+    // background: #003c36;
+    min-height: 99.2vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    // opacity: 0.75;
+    // background: url("../assets/kisspng-clip-art-vector-graphics-computer-student-shutters-amp-quot-5b899546d21f53.3361825315357433028607.jpg");
+  }
+  &__headingPrimary {
+    // customize heading primary here
+  }
+  @media only screen and (max-width: 767px) {
+    &__content {
+      background: url("../assets/Chrisdesign_red_glossy_pen.svg");
+      background-position: right;
+      background-repeat: no-repeat;
+      // color: #000;
+    }
+    .headingPrimary {
+      font-size: 20px;
+      font-weight: bolder;
+      // font-family: "Times New Roman", Times, serif;
+      line-height: 30px;
+    }
+    .headingTertiary {
+      font-size: 15px;
+      line-height: 30px;
+      font-weight: bolder;
+      font-family: sans-serif;
+    }
+    .button {
+      width: 250px;
+      // height: 70px;
+      // font-size: 10px;
+    }
+  }
+}

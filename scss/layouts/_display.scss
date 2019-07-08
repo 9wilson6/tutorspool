@@ -1,0 +1,53 @@
+.display {
+  font-size: 80% !important;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 90%;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 70% !important;
+    width: 100%;
+  }
+  @media only screen and (max-width: 990px) {
+    padding-top: 3rem;
+  }
+  font-family: "Montserrat" !important;
+  @include tablet1 {
+    margin-left: -1rem;
+    .headingTertiary {
+      font-size: 2rem;
+      @media only screen and (max-width: 767px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .card-header {
+    background: #44bd32 !important;
+    color: #fff;
+    font-weight: bolder;
+    @media only screen and (max-width: 767px) {
+      font-size: 15px !important;
+    }
+  }
+  .card-body {
+    @media only screen and (max-width: 767px) {
+      font-size: 14px !important;
+    }
+    font-size: 16px !important;
+  }
+
+  &__content {
+    min-height: 795px;
+    text-align: center;
+    padding: $margin-sm $margin-sm;
+    @media only screen and (max-width: 767px) {
+      padding: 0;
+    }
+    .btn {
+      font-size: inherit;
+    }
+    .btn:not(:last-child) {
+      margin-top: $margin-md;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.dashboard__content{
+    a{
+        text-decoration: none;
+        color: $primary-color-1_1;
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    &--items{ text-align: left;}
+    .list-group-item{
+        box-shadow: 0 1px 1px  green;
+       span{
+           float: right;
+           margin-top: 7px;
+       }
+        .my_pill{
+            display: inline;
+            font-size: 1.1rem;
+            padding: .5rem;
+            border-radius: 1rem;
+            margin-left: 1rem;
+            color: #fff;
+            font-weight: 700;
+          
+        }
+    }
+    &--items:not(:last-child){
+        margin-bottom: 7px;
+    };
+    ul:nth-child(even){
+        background: #D7DBD6;
+    }
+ 
+}
